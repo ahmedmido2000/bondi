@@ -1,0 +1,101 @@
+
+.navbar{
+    background-color: #19283f;
+}
+p{
+    color: #888;
+}
+#brand{
+    font-size: 30px;
+}
+#nav-icon{
+    color: #fff;
+}
+.navbar-nav li a:hover , .navbar-nav li a:focus {
+    color: #33d1cc;
+}
+#search{
+    color: #33d1cc;
+    border-left: 1px solid #33d1cc;
+}
+#btn{
+    border-radius: 20px;
+}
+.main{
+    background-color: #19283f;
+    min-height: calc(100vh - 48px);
+}
+.features i{
+    font-size: 50px;
+    color: #007bff;
+}
+.features p::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 150px;
+    bottom: -10px;
+    background-color: #33d1cc;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons{
+    height: 120px;
+}
+.icons i{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.icons i:first-child{
+    font-size: 120px;
+    color: #888;
+   
+}
+.icons i:last-child{
+    font-size: 50px;
+    color: #007bff;
+}
+.box{
+    height: 200px;
+    overflow: hidden;
+}
+.about img{
+    height: 500px;
+}
+.team img{
+    height: 200px;
+}
+.team h2{
+    background-color: #33d1cc;
+}
+.footer{
+    background-color: #19283f;
+}
+.footer .row h2{
+    font-weight: bold;
+    font-style: italic;
+}
+.footer .row span{
+    color:#007bff;
+    font-weight: bolder;
+}
+.contact i{
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contact i:first-child{
+    background-color: #1877f2;
+}
+.contact i:nth-child(2){
+    background-color: #1DA1F2;
+}
+.contact i:nth-child(3){
+    background-color: #0077b5;
+}
+.contact i:last-child{
+    background-color: #ff0000;
+}
